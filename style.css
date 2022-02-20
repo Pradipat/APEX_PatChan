@@ -7,8 +7,43 @@ body{
     padding: 0;
 }
 
+
+
+/* content   */
+.showcase{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+.showcase .bg{
+    width: 100%;
+}
+.showcase .showcase_info{
+    position: absolute;
+    width: 40%;
+    top: 15%;
+    left: 8%;
+}
+.showcase_btn a{
+    text-decoration: none;
+    color: black;
+    border: solid black 2px;
+    border-radius: 2px;
+    padding: 10px 20px;
+}
+.showcase_btn a{
+    margin-right: 20px;
+}
+.showcase p{
+    margin-bottom: 50px;
+}
+/* content   */
+
 /* footer */
 footer{
+    width: 100%;
+}
+.contact{
     padding: 30px 150px;
     width: 100%;
     background-color: #252525;
@@ -30,6 +65,9 @@ footer{
     text-decoration: none;
     color: #a3a3a3;
 }
+.contact_warps ul a:hover{
+    color: #d92928;
+}
 .contact_nav{
     text-align: right;
     color: white;
@@ -41,6 +79,10 @@ footer{
 .contact_logo i{
     padding: 0;
     margin-left: 30px;
+}
+.contact_logo i:hover{
+    transform: scale(1.2);
+    transition: 0.5;
 }
 .contact_down{
     margin-top: 30px;
@@ -55,6 +97,9 @@ footer{
 }
 .credit img{
     margin-right: 50px;
+}
+.contact_logo a{
+    color: white;
 }
 
 @media only screen and (max-width: 1024px){
@@ -83,5 +128,47 @@ footer{
     .teen_logo{
         margin-top: 20px;
     }
+}
+
+
+.footer-warps{
+    padding: 30px 150px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+}
+.warps-top{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.warps-top-left{
+    display: flex;
+    align-items: center;
+}
+.warps-top-left img{
+    height: 50px;
+}
+.warps-top-left a{
+    font-weight: bold;
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+.warps-top-right p{
+    border: solid 1px gray;
+    border-radius: 2px;
+    padding: 8px 35px;
+}
+.warps-bottom{
+    margin-bottom: 20px;
+    margin-left: 93px;
+    display: flex;
+    justify-content: space-between;
+}
+.warps-bottom-left a{
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
 }
 /* footer */
